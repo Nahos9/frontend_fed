@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import 'ngx-toastr/toastr';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0 !important;
+    padding: O !important;
+    box-sizing: border-box !important;
+}
+body{
+    background: linear-gradient(70deg, rgb(234, 234, 237), rgb(198, 4, 36));
+}
+

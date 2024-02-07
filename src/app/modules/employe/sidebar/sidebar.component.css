@@ -1,0 +1,28 @@
+.sidebar{
+    width: 12rem;
+}
+.sidebar-menu-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding:.5rem .75rem;
+    border-radius: .5rem;
+    width: 100%;
+    margin-bottom: .7rem !important;
+}
+.sidebar-menu-item a{
+    text-decoration: none;
+    margin-right: .3rem;
+}
+.sidebar-menu-item a.active-link{
+    list-style: none;
+    display: flex;
+    color: white;
+    background: red;
+    align-items: center;
+    margin-bottom: .7rem !important;
+    width: 100%;
+    padding:.5rem .75rem;
+    border-radius: .5rem;
+    
+}
