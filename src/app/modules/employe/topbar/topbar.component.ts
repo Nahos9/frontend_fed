@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { StorageService } from '../../../services/storage.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-topbar',
@@ -9,4 +11,10 @@ import { Component } from '@angular/core';
 })
 export class TopbarComponent {
 
+  router = inject(Router)
+
+  logout(){
+    StorageService.logout()
+    this.router.navigateByUrl("/login")
+  }
 }
